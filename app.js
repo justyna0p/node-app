@@ -3,9 +3,10 @@ const port = 3000;
 
 
 const app = express();
+app.set('view engine', 'hbs')
 
 app.get('/', (request, response) => {
-    response.send("Hello user!!!!")
+    response.render("index")
 });
 
 app.get('/contact', (request, response) => {

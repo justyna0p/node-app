@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Server site node.js aplication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justyna0p/node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justyna0p/node-app/issues"
+  },
+  "homepage": "https://github.com/justyna0p/node-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.2.0",
+    "mysql": "^2.18.1"
+  }
+}
